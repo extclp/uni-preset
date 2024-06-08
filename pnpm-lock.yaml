@@ -30,12 +30,6 @@ importers:
       '@dcloudio/types':
         specifier: ^3.4.8
         version: 3.4.8
-      '@dcloudio/uni-cli-shared':
-        specifier: 3.0.0-4010520240507001
-        version: 3.0.0-4010520240507001(postcss@8.4.38)(rollup@4.18.0)(vue@3.4.27(typescript@5.4.5))
-      '@dcloudio/uni-stacktracey':
-        specifier: 3.0.0-4010520240507001
-        version: 3.0.0-4010520240507001
       '@dcloudio/vite-plugin-uni':
         specifier: 3.0.0-4010520240507001
         version: 3.0.0-4010520240507001(postcss@8.4.38)(rollup@4.18.0)(vite@5.2.13(terser@5.31.1))(vue@3.4.27(typescript@5.4.5))
@@ -721,9 +715,6 @@ packages:
 
   '@dcloudio/uni-shared@3.0.0-4010520240507001':
     resolution: {integrity: sha512-cfEN8lQJetitXQ3tywHCxDjY6PsSuefYWQMGCEoctP0xfFcuwZRaa4f2MbG+VgTFV4hZTJAi89dVVnhqrynz3A==}
-
-  '@dcloudio/uni-stacktracey@3.0.0-4010520240507001':
-    resolution: {integrity: sha512-Xpnng1NQ7vh6e/pN7fPdzr0OtiY3cznAksJT9AULlhGr5l8M1e1DpeoUNCFaLHcyHcfRVD77ksxVLOkiArmQOA==}
 
   '@dcloudio/uni-stat@3.0.0-4010520240507001':
     resolution: {integrity: sha512-XcFc6CaE37GRljIoejkzbgIPkM1Gy9fqRvSUx01QJdpDcVAzBCjb5n39WE6DTJn85fglP/ShuusFueFodasqkQ==}
@@ -3496,8 +3487,6 @@ snapshots:
   '@dcloudio/uni-shared@3.0.0-4010520240507001':
     dependencies:
       '@vue/shared': 3.4.21
-
-  '@dcloudio/uni-stacktracey@3.0.0-4010520240507001': {}
 
   '@dcloudio/uni-stat@3.0.0-4010520240507001(postcss@8.4.38)(rollup@4.18.0)(vue@3.4.27(typescript@5.4.5))':
     dependencies:
