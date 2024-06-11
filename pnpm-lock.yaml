@@ -43,7 +43,7 @@ importers:
         specifier: ^5.4.5
         version: 5.4.5
       vite:
-        specifier: 5.2.13
+        specifier: ^5.2.13
         version: 5.2.13(terser@5.31.1)
 
 packages:
