@@ -31,6 +31,7 @@
     "@dcloudio/vite-plugin-uni": "3.0.0-4010520240507001",
     "@uni-helper/uni-app-types": "^0.5.13",
     "@vue/tsconfig": "^0.5.1",
+    "sass": "^1.77.6",
     "typescript": "^5.5.3",
     "vite": "^5.3.3"
   },
