@@ -2,27 +2,17 @@
   "name": "uni-preset-vue",
   "version": "0.0.0",
   "scripts": {
-    "dev:app": "uni -p app",
-    "dev:app-android": "uni -p app-android",
-    "dev:app-ios": "uni -p app-ios",
     "dev:custom": "uni -p",
     "dev:h5": "uni",
     "dev:h5:ssr": "uni --ssr",
-    "dev:mp-weixin": "uni -p mp-weixin",
-    "build:app": "uni build -p app",
-    "build:app-android": "uni build -p app-android",
-    "build:app-ios": "uni build -p app-ios",
     "build:custom": "uni build -p",
     "build:h5": "uni build",
-    "build:h5:ssr": "uni build --ssr",
-    "build:mp-weixin": "uni build -p mp-weixin"
+    "build:h5:ssr": "uni build --ssr"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-4020320240708001",
-    "@dcloudio/uni-app-plus": "3.0.0-4020320240708001",
     "@dcloudio/uni-components": "3.0.0-4020320240708001",
     "@dcloudio/uni-h5": "3.0.0-4020320240708001",
-    "@dcloudio/uni-mp-weixin": "3.0.0-4020320240708001",
     "@vue/runtime-core": "^3.4.31",
     "vue": "^3.4.31"
   },
@@ -34,10 +24,5 @@
     "sass": "^1.77.7",
     "typescript": "^5.5.3",
     "vite": "^5.3.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "esbuild": "0.21.5"
-    }
   }
 }
